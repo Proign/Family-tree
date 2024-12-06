@@ -1,0 +1,9 @@
+.git/
+.idea/
+.vs/
+family-tree/bin
+family-tree/obj
+family-tree.BLL/bin
+family-tree.BLL/obj
+family-tree.DAL/bin
+family-tree.DAL/obj

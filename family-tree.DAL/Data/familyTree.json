@@ -1,0 +1,141 @@
+{
+  "Persons": [
+    {
+      "ID": "1",
+      "FullName": "Иванов Иван Алексеевич",
+      "DateOfBirth": "1938-01-01T00:00:00",
+      "Gender": "Male",
+      "Children": [ "2", "6", "9" ],
+      "Spouse": "5"
+    },
+    {
+      "ID": "5",
+      "FullName": "Смирнова Елена Игоревна",
+      "DateOfBirth": "1943-01-01T00:00:00",
+      "Gender": "Female",
+      "Children": [ "2", "6", "9" ],
+      "Spouse": "1"
+    },
+    {
+      "ID": "2",
+      "FullName": "Иванов Андрей Иванович",
+      "DateOfBirth": "1963-01-01T00:00:00",
+      "Gender": "Male",
+      "Parents": [ "1", "5" ],
+      "Children": [ "3", "4" ],
+      "Spouse": "8"
+    },
+    {
+      "ID": "8",
+      "FullName": "Попова Мария Сергеевна",
+      "DateOfBirth": "1968-01-01T00:00:00",
+      "Gender": "Female",
+      "Children": [ "3", "4" ],
+      "Spouse": "2"
+    },
+    {
+      "ID": "3",
+      "FullName": "Иванов Сергей Андреевич",
+      "DateOfBirth": "1988-01-01T00:00:00",
+      "Gender": "Male",
+      "Parents": [ "2", "8" ],
+      "Children": [ "10" ],
+      "Spouse": "7"
+    },
+    {
+      "ID": "7",
+      "FullName": "Михайлова Анна Евгеньевна",
+      "DateOfBirth": "1990-01-01T00:00:00",
+      "Gender": "Female",
+      "Children": [ "10" ],
+      "Spouse": "3"
+    },
+    {
+      "ID": "10",
+      "FullName": "Иванов Игорь Сергеевич",
+      "DateOfBirth": "2013-01-01T00:00:00",
+      "Gender": "Male",
+      "Parents": [ "3", "7" ]
+    },
+    {
+      "ID": "4",
+      "FullName": "Иванова Анна Андреевна",
+      "DateOfBirth": "1991-01-01T00:00:00",
+      "Gender": "Female",
+      "Parents": [ "2", "8" ],
+      "Children": [ "11" ],
+      "Spouse": "13"
+    },
+    {
+      "ID": "13",
+      "FullName": "Васильев Сергей Иванович",
+      "DateOfBirth": "1988-01-01T00:00:00",
+      "Gender": "Male",
+      "Children": [ "11" ],
+      "Spouse": "4"
+    },
+    {
+      "ID": "11",
+      "FullName": "Васильев Игорь Сергеевич",
+      "DateOfBirth": "2016-01-01T00:00:00",
+      "Gender": "Male",
+      "Parents": [ "4", "13" ]
+    },
+    {
+      "ID": "6",
+      "FullName": "Иванова Мария Ивановна",
+      "DateOfBirth": "1970-01-01T00:00:00",
+      "Gender": "Female",
+      "Parents": [ "1", "5" ],
+      "Spouse": "12"
+    },
+    {
+      "ID": "12",
+      "FullName": "Кузнецов Петр Михайлович",
+      "DateOfBirth": "1968-01-01T00:00:00",
+      "Gender": "Male",
+      "Spouse": "6"
+    },
+    {
+      "ID": "9",
+      "FullName": "Иванов Петр Иванович",
+      "DateOfBirth": "1973-01-01T00:00:00",
+      "Gender": "Male",
+      "Parents": [ "1", "5" ],
+      "Children": [ "14" ],
+      "Spouse": "15"
+    },
+    {
+      "ID": "15",
+      "FullName": "Соколова Ольга Петровна",
+      "DateOfBirth": "1976-01-01T00:00:00",
+      "Gender": "Female",
+      "Children": [ "14" ],
+      "Spouse": "9"
+    },
+    {
+      "ID": "14",
+      "FullName": "Иванова Ольга Петровна",
+      "DateOfBirth": "1998-01-01T00:00:00",
+      "Gender": "Female",
+      "Parents": [ "9", "15" ],
+      "Children": [ "16" ],
+      "Spouse": "17"
+    },
+    {
+      "ID": "17",
+      "FullName": "Петров Петр Петрович",
+      "DateOfBirth": "1993-01-01T00:00:00",
+      "Gender": "Male",
+      "Children": [ "16" ],
+      "Spouse": "14"
+    },
+    {
+      "ID": "16",
+      "FullName": "Петров Алексей Петрович",
+      "DateOfBirth": "2023-01-01T00:00:00",
+      "Gender": "Male",
+      "Parents": [ "14", "17" ]
+    }
+  ]
+}
