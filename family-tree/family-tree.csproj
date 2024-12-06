@@ -92,30 +92,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddPersonForm.cs">
+    <Compile Include="UI\AddPerson\AddPersonForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddPersonForm.Designer.cs">
+    <Compile Include="UI\AddPerson\AddPersonForm.Designer.cs">
       <DependentUpon>AddPersonForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="UI\Main\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="UI\Main\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RelationshipForm.cs">
+    <Compile Include="UI\Relationship\RelationshipForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RelationshipForm.Designer.cs">
+    <Compile Include="UI\Relationship\RelationshipForm.Designer.cs">
       <DependentUpon>RelationshipForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddPersonForm.resx">
+    <EmbeddedResource Include="UI\AddPerson\AddPersonForm.resx">
       <DependentUpon>AddPersonForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="UI\Main\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -127,7 +127,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RelationshipForm.resx">
+    <EmbeddedResource Include="UI\Relationship\RelationshipForm.resx">
       <DependentUpon>RelationshipForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
